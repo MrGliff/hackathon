@@ -1,0 +1,38 @@
+html {
+  scroll-behavior:smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ body {
+  font-family: 'Space Grotesk', serif;
+ }
+
+ .navbar {
+  background-color: #0077B6;
+  /* transition: 1s ease-in-out; */
+ }
+
+ .title {
+  color: #CAF0F8;
+  padding: 5px;
+  transform: 0.3s ease-in-out;
+ }
+
+ .title:hover {
+  color: #fff;
+  background-color: #0096C7;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+ }
+
+ /* .profile {
+  background-color: #90E0EF;
+  color: black;
+ } */

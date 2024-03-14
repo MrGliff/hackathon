@@ -30,7 +30,6 @@ export default function Progressbar(props) {
                         backgroundColor: "#48CAE4",
                         transition: "width 0.2s"
                     }}></div>
-                    <span className="progressPercent">{filled}%</span>
                 </div>
             </div>
         </>

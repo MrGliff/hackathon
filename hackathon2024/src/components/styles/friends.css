@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: #CAF0F8;
+}
+
+.friendWrapper {
+    display: flex;
+    flex-direction: row;
+    column-gap: 25%;
+    width: 100%;
+}

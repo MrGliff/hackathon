@@ -1,0 +1,45 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: #CAF0F8;
+}
+
+.friendMargin {
+    border: 1px solid black;
+    border-radius: 10px;
+    min-width: 30%;
+    width: 50%;
+    margin: 10px;
+}
+
+.friendContainer {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    padding: 15px;
+}
+
+.friendContainer img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+} */
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.friendMargin {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: left;
+}

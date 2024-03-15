@@ -11,9 +11,9 @@ export default function userNavbar() {
                             <span className="ml-0 text-xl">grind</span>
                         </a>
                         <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-                            <a className="mr-5 title">Home</a>
-                            <a className="mr-5 title">Friends</a>
-                            <a className="mr-5 title">My Habits</a>
+                            <a href="#" className="mr-5 title">Home</a>
+                            <a href='#friends' className="mr-5 title">Friends</a>
+                            <a href='#habits' className="mr-5 title">My Habits</a>
                             <a className="mr-5 title">Work Log</a>
                         </nav>
                         <button className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0 profile">Profile</button>

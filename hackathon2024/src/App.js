@@ -8,9 +8,15 @@ function App() {
   return (
     <>
       <UserNavbar />
-      <div className='mb-10'></div>
+      <div className='mb-10 text-center'></div>
       <Home />
+      <div className="mt-10 habits text-center text-5xl">
+        <h1>Your Habits</h1>
+      </div>
       <MyHabits />
+      <div className="friends text-center text-5xl">
+        <h1>Your Friends</h1>
+      </div>
       <Friends></Friends>
     </>
   );

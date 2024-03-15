@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import UserNavbar from './components/userNavbar';
 import Home from './components/home'
@@ -9,6 +8,7 @@ function App() {
   return (
     <>
       <UserNavbar />
+      <div className='mb-10'></div>
       <Home />
       <MyHabits />
       <Friends></Friends>
